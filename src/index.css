@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  
+    --moderate-blue: hsl(238, 40%, 53%);
+    --soft-red: hsl(358,78%,66%);
+    --light-grayish-blue: hsl(239, 57%, 85%);
+    --pale-red: hsl(357, 100%, 86%);
+   
+    --dark-blue: hsl(212, 24%, 26%);
+    --grayish-Blue: hsl(211, 10%, 45%);
+    --light-gray: hsl(223, 19%, 93%);
+    --very-light-gray: hsl(228, 33%, 97%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body{
+    background: var(--very-light-gray);
+}
+
+.score-btns{
+    background: var(--very-light-gray);
+    align-self: flex-end;
+}
